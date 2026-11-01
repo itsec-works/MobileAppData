@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "servers": [
+    "https://pretalx.com/",
+    "https://pretalx.c3voc.de/",
+    "https://cfp.cccv.de/",
+    "https://pretalx.fosdem.org/",
+    "https://schedule.hope.net/",
+    "https://program.wiccon.nl/",
+    "https://program.why2025.org/",
+    "https://cfp.balccon.org/",
+    "https://cfp.botconf.org/",
+    "https://cfp.ccc-p.org/",
+    "https://cfp.gulas.ch/",
+    "https://cfp.hackfest.ca/",
+    "https://cfp.nsec.io/",
+    "https://cfp.pass-the-salt.org/",
+    "https://cfp.recon.cx/",
+    "https://cfp.romhack.io/",
+    "https://cfp.securityfest.com/",
+    "https://conference.c3w.at/",
+    "https://pretalx.cfhn.it/",
+    "https://content.fri3d.be/",
+    "https://pretalx.hackerhotel.nl/",
+    "https://pretalx.hsbp.org/",
+    "https://pretalx.vvoid.camp/",
+    "https://programm.pfingst.camp/",
+    "https://talks.datenspuren.de/",
+    "https://talks.hackover.de/",
+    "https://talks.mrmcd.net/",
+    "https://talks.toorcon.net/"
+  ],
+  "publishedElsewhere": [
+    {
+      "server": "https://pretalx.fosdem.org/",
+      "publisher": "https://fosdem.org/",
+      "slug": "fosdem-(?<year>\\d{4})",
+      "schedule": "https://fosdem.org/{year}/schedule/xml"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["H3D2H9TFUY.com.zwartswork.talkgrid"],
+        "components": [
+          { "/": "/talkgrid/talk" },
+          { "/": "/talkgrid/talk.html" }
+        ]
+      }
+    ]
+  }
+}
