@@ -82957,7 +82957,7 @@
       "start": "2026-11-02",
       "time_zone_name": "Europe/Amsterdam",
       "timeslot_duration": "00:05",
-      "title": "NonStop Con — Legacy API",
+      "title": "NonStop Con — Talkgrid Test",
       "tracks": [
         {
           "color": "#D32F2F",
@@ -82983,6 +82983,6 @@
       "logo": "https://apps.zwarts.work/talkgrid/tests/nonstop-logo.png"
     },
     "url": "https://apps.zwarts.work/talkgrid/tests/legacy/schedule/export/schedule.json",
-    "version": "nonstop-1"
+    "version": "nonstop-2"
   }
 }
