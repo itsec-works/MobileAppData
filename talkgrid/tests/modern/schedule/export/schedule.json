@@ -1,0 +1,940 @@
+{
+  "generator": {
+    "name": "pretalx",
+    "version": "synthetic-modern-fixture"
+  },
+  "schedule": {
+    "version": "1",
+    "base_url": "https://apps.zwarts.work/talkgrid/tests/",
+    "conference": {
+      "acronym": "talkgrid-test-modern",
+      "title": "Talkgrid Test — Modern API",
+      "start": "2026-11-03",
+      "end": "2026-11-09",
+      "daysCount": 7,
+      "time_zone_name": "Europe/Amsterdam",
+      "rooms": [
+        {
+          "name": "Main Stage",
+          "slug": "8001-main-stage",
+          "description": "Synthetic main stage."
+        },
+        {
+          "name": "Workshop Room",
+          "slug": "8002-workshop-room",
+          "description": "Synthetic workshop room."
+        }
+      ],
+      "tracks": [
+        {
+          "name": "Security",
+          "color": "#D32F2F",
+          "slug": "91001-security"
+        },
+        {
+          "name": "Community",
+          "color": "#388E3C",
+          "slug": "91002-community"
+        }
+      ],
+      "days": [
+        {
+          "index": 1,
+          "date": "2026-11-03",
+          "day_start": "2026-11-03T08:30:00+01:00",
+          "day_end": "2026-11-03T18:00:00+01:00",
+          "rooms": {
+            "Main Stage": [
+              {
+                "id": 101,
+                "guid": "036b7c1f-45f5-5eb9-8b3a-c1c0a5f6ae18",
+                "slug": "modern-d01r1t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D01R1T1/",
+                "date": "2026-11-03T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-03T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Main Stage",
+                "title": "Security sample 1 — day 1",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 102,
+                "guid": "2ae33e9a-0d38-5b53-86c1-c6b926943622",
+                "slug": "modern-d01r1t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D01R1T2/",
+                "date": "2026-11-03T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-03T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Main Stage",
+                "title": "Community sample 2 — day 1",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ],
+            "Workshop Room": [
+              {
+                "id": 111,
+                "guid": "8c935d08-5db8-5cb9-aace-6a80e7d5b620",
+                "slug": "modern-d01r2t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D01R2T1/",
+                "date": "2026-11-03T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-03T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Workshop Room",
+                "title": "Community sample 1 — day 1",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 112,
+                "guid": "3143f151-6298-515f-878e-757857eb519b",
+                "slug": "modern-d01r2t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D01R2T2/",
+                "date": "2026-11-03T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-03T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Workshop Room",
+                "title": "Security sample 2 — day 1",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "date": "2026-11-04",
+          "day_start": "2026-11-04T08:30:00+01:00",
+          "day_end": "2026-11-04T18:00:00+01:00",
+          "rooms": {
+            "Main Stage": [
+              {
+                "id": 201,
+                "guid": "3e8b2abf-ed4c-5b36-8ab9-94c3b74cf4ea",
+                "slug": "modern-d02r1t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D02R1T1/",
+                "date": "2026-11-04T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-04T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Main Stage",
+                "title": "Security sample 1 — day 2",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 202,
+                "guid": "1af4178f-e0d2-50bf-85ea-fb31162d4fb1",
+                "slug": "modern-d02r1t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D02R1T2/",
+                "date": "2026-11-04T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-04T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Main Stage",
+                "title": "Community sample 2 — day 2",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ],
+            "Workshop Room": [
+              {
+                "id": 211,
+                "guid": "256fcd47-2179-5caa-8058-4502956eee40",
+                "slug": "modern-d02r2t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D02R2T1/",
+                "date": "2026-11-04T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-04T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Workshop Room",
+                "title": "Community sample 1 — day 2",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 212,
+                "guid": "3bbf31a3-66f8-5bb2-acc1-b8311194fad6",
+                "slug": "modern-d02r2t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D02R2T2/",
+                "date": "2026-11-04T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-04T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Workshop Room",
+                "title": "Security sample 2 — day 2",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "date": "2026-11-05",
+          "day_start": "2026-11-05T08:30:00+01:00",
+          "day_end": "2026-11-05T18:00:00+01:00",
+          "rooms": {
+            "Main Stage": [
+              {
+                "id": 301,
+                "guid": "961e2c73-5b46-5205-a05f-e01757adc30f",
+                "slug": "modern-d03r1t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D03R1T1/",
+                "date": "2026-11-05T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-05T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Main Stage",
+                "title": "Security sample 1 — day 3",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 302,
+                "guid": "450e1da9-adfa-57e1-88f0-3ddca6515b12",
+                "slug": "modern-d03r1t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D03R1T2/",
+                "date": "2026-11-05T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-05T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Main Stage",
+                "title": "Community sample 2 — day 3",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ],
+            "Workshop Room": [
+              {
+                "id": 311,
+                "guid": "88caa984-5558-5fad-bcd8-db2cb92c4d67",
+                "slug": "modern-d03r2t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D03R2T1/",
+                "date": "2026-11-05T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-05T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Workshop Room",
+                "title": "Community sample 1 — day 3",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 312,
+                "guid": "96f751ca-d10d-554d-979b-bbde0514a143",
+                "slug": "modern-d03r2t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D03R2T2/",
+                "date": "2026-11-05T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-05T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Workshop Room",
+                "title": "Security sample 2 — day 3",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "date": "2026-11-06",
+          "day_start": "2026-11-06T08:30:00+01:00",
+          "day_end": "2026-11-06T18:00:00+01:00",
+          "rooms": {
+            "Main Stage": [
+              {
+                "id": 401,
+                "guid": "49ffd81a-5cb1-5ee2-b8c3-46e31947369f",
+                "slug": "modern-d04r1t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D04R1T1/",
+                "date": "2026-11-06T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-06T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Main Stage",
+                "title": "Security sample 1 — day 4",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 402,
+                "guid": "410fc6b5-e598-5852-bce5-546e20808f27",
+                "slug": "modern-d04r1t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D04R1T2/",
+                "date": "2026-11-06T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-06T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Main Stage",
+                "title": "Community sample 2 — day 4",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ],
+            "Workshop Room": [
+              {
+                "id": 411,
+                "guid": "f257b289-613b-5eb4-be22-f34e13a2a3d8",
+                "slug": "modern-d04r2t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D04R2T1/",
+                "date": "2026-11-06T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-06T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Workshop Room",
+                "title": "Community sample 1 — day 4",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 412,
+                "guid": "f02d2908-112f-5471-a4d8-28cdf9f903fb",
+                "slug": "modern-d04r2t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D04R2T2/",
+                "date": "2026-11-06T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-06T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Workshop Room",
+                "title": "Security sample 2 — day 4",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "date": "2026-11-07",
+          "day_start": "2026-11-07T08:30:00+01:00",
+          "day_end": "2026-11-07T18:00:00+01:00",
+          "rooms": {
+            "Main Stage": [
+              {
+                "id": 501,
+                "guid": "763fe8b7-52e8-5d23-b01e-ba159ded3779",
+                "slug": "modern-d05r1t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D05R1T1/",
+                "date": "2026-11-07T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-07T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Main Stage",
+                "title": "Security sample 1 — day 5",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 502,
+                "guid": "7bbad9e3-703f-5ca2-a8e2-91ee757141ac",
+                "slug": "modern-d05r1t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D05R1T2/",
+                "date": "2026-11-07T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-07T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Main Stage",
+                "title": "Community sample 2 — day 5",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ],
+            "Workshop Room": [
+              {
+                "id": 511,
+                "guid": "4dee554c-eb1e-5001-8a82-990c92d6842e",
+                "slug": "modern-d05r2t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D05R2T1/",
+                "date": "2026-11-07T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-07T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Workshop Room",
+                "title": "Community sample 1 — day 5",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 512,
+                "guid": "cacbd287-9fa9-50b2-8d57-e1a2a83b9fdd",
+                "slug": "modern-d05r2t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D05R2T2/",
+                "date": "2026-11-07T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-07T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Workshop Room",
+                "title": "Security sample 2 — day 5",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ]
+          }
+        },
+        {
+          "index": 6,
+          "date": "2026-11-08",
+          "day_start": "2026-11-08T08:30:00+01:00",
+          "day_end": "2026-11-08T18:00:00+01:00",
+          "rooms": {
+            "Main Stage": [
+              {
+                "id": 601,
+                "guid": "80b1c138-0dde-58c5-91bc-cd39833768c1",
+                "slug": "modern-d06r1t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D06R1T1/",
+                "date": "2026-11-08T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-08T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Main Stage",
+                "title": "Security sample 1 — day 6",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 602,
+                "guid": "f07b4f23-f7f5-51e1-9118-c48510fcd95b",
+                "slug": "modern-d06r1t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D06R1T2/",
+                "date": "2026-11-08T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-08T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Main Stage",
+                "title": "Community sample 2 — day 6",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ],
+            "Workshop Room": [
+              {
+                "id": 611,
+                "guid": "2e58d435-656f-5845-b1f2-f979207d08fc",
+                "slug": "modern-d06r2t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D06R2T1/",
+                "date": "2026-11-08T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-08T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Workshop Room",
+                "title": "Community sample 1 — day 6",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 612,
+                "guid": "610f0829-c132-55aa-bdad-4da79d3c8079",
+                "slug": "modern-d06r2t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D06R2T2/",
+                "date": "2026-11-08T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-08T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Workshop Room",
+                "title": "Security sample 2 — day 6",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "date": "2026-11-09",
+          "day_start": "2026-11-09T08:30:00+01:00",
+          "day_end": "2026-11-09T18:00:00+01:00",
+          "rooms": {
+            "Main Stage": [
+              {
+                "id": 701,
+                "guid": "e040db3e-191b-5083-b199-0b601a207b12",
+                "slug": "modern-d07r1t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D07R1T1/",
+                "date": "2026-11-09T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-09T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Main Stage",
+                "title": "Security sample 1 — day 7",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 702,
+                "guid": "6a3762e4-f423-57c5-bdaf-2606995668bf",
+                "slug": "modern-d07r1t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D07R1T2/",
+                "date": "2026-11-09T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-09T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Main Stage",
+                "title": "Community sample 2 — day 7",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Talk",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 1,
+                    "code": "ALEX01",
+                    "public_name": "Alex Example",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/men-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ],
+            "Workshop Room": [
+              {
+                "id": 711,
+                "guid": "dc65267c-3f08-5d62-bbc0-438632287281",
+                "slug": "modern-d07r2t1",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D07R2T1/",
+                "date": "2026-11-09T09:30:00+01:00",
+                "start": "09:30",
+                "end": "2026-11-09T10:30:00+01:00",
+                "duration": "01:00",
+                "room": "Workshop Room",
+                "title": "Community sample 1 — day 7",
+                "subtitle": "",
+                "track": "Community",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              },
+              {
+                "id": 712,
+                "guid": "3ce37709-5396-5e94-8489-cd1cb79f744d",
+                "slug": "modern-d07r2t2",
+                "url": "https://apps.zwarts.work/talkgrid/tests/modern/talk/D07R2T2/",
+                "date": "2026-11-09T10:45:00+01:00",
+                "start": "10:45",
+                "end": "2026-11-09T12:00:00+01:00",
+                "duration": "01:15",
+                "room": "Workshop Room",
+                "title": "Security sample 2 — day 7",
+                "subtitle": "",
+                "track": "Security",
+                "type": "Workshop",
+                "language": "en",
+                "abstract": "Fictional content for testing Talkgrid. No real event or person is represented.",
+                "description": "The export contains talks only. Walk-in, coffee and lunch are supplied separately by the synthetic API.",
+                "persons": [
+                  {
+                    "id": 2,
+                    "code": "ROBIN2",
+                    "public_name": "Robin Sample",
+                    "avatar": "https://apps.zwarts.work/talkgrid/avatars/women-00.jpg"
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "do_not_record": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
