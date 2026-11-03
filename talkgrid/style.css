@@ -12,3 +12,7 @@ p, li { color: var(--text); }
 .lead { color: var(--muted); font-size: 19px; margin-top: 0; }
 .date { color: var(--muted); font-size: 15px; }
 footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+
+.talkgrid-launch { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 18px; border-radius: 10px; background: #065bb5; color: #fff; font-weight: 600; }
+.talkgrid-launch:hover { background: #044a95; text-decoration: none; }
+.launch-note { color: var(--muted); font-size: 15px; }

@@ -11,23 +11,42 @@
 <nav><a href="index.html">Talkgrid</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
 <h1>A talk shared from Talkgrid</h1>
 <p class="lead">Someone sent you a talk from a conference schedule.</p>
-<p>With Talkgrid on your iPhone or iPad, this link opens the talk in the app and adds its conference for you.</p>
+<p>With Talkgrid on your iPhone or iPad, this shared link can open the talk in the app.</p>
+<div id="app-launch" hidden>
+<p><a id="app-launch-link" class="talkgrid-launch" href="index.html">Open schedule in Talkgrid</a></p>
+<p class="launch-note">If this conference isn’t on your device yet, Talkgrid will download and add it. Requires Talkgrid on your iPhone or iPad.</p>
+</div>
+<noscript><p>Enable JavaScript to use the app launcher.</p></noscript>
 <p id="organizer" hidden><a id="organizer-link" href="index.html">See this talk on the organizer's site</a></p>
 <p><a href="index.html">About Talkgrid</a></p>
 <footer>Talkgrid shows schedules published by conference organizers, and is not affiliated with them.</footer>
 </main>
 <script>
-// Only a web address is followed, whatever the link says.
-const web = new URLSearchParams(location.search).get("web");
-try {
-  const url = new URL(web);
-  if (url.protocol === "https:" || url.protocol === "http:") {
-    const link = document.getElementById("organizer-link");
-    link.href = url.href;
-    link.textContent = "See this talk on " + url.hostname;
-    document.getElementById("organizer").hidden = false;
-  }
-} catch {}
+const parameters = new URLSearchParams(location.search);
+
+function webAddress(value) {
+  try {
+    const url = new URL(value);
+    if (url.protocol === "https:" || url.protocol === "http:") return url;
+  } catch {}
+  return null;
+}
+
+const event = webAddress(parameters.get("event"));
+if (event) {
+  const launcher = new URL("talkgrid://add");
+  launcher.searchParams.set("url", event.href);
+  document.getElementById("app-launch-link").href = launcher.href;
+  document.getElementById("app-launch").hidden = false;
+}
+
+const web = webAddress(parameters.get("web"));
+if (web) {
+  const link = document.getElementById("organizer-link");
+  link.href = web.href;
+  link.textContent = "See this talk on " + web.hostname;
+  document.getElementById("organizer").hidden = false;
+}
 </script>
 </body>
 </html>
